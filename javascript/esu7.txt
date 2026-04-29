@@ -1,0 +1,27 @@
+
+
+let car = {
+	wheels:'winter,
+	color:'red',
+	model:'kia',
+	fuel:'gasoline'
+};
+
+
+let properties = ["wheels","color","model", "fuel"];
+
+
+let properties = Object.keys(car);               //  ["wheels","color","model", "fuel"]
+
+
+for(let i = 0; i<properties.length; i++) 
+{
+	console.log(car[properties[i]]);
+}
+
+
+//Number contiene metodi utili per valori di tipo 'number'
+//String contiene metodi utili per valori di tipo 'string'
+//Object contiene metodi utili per valori di tipo 'object'
+//Array contiene metodi utili per valori di tipo 'object' utili per l'utilizzo degli array
+

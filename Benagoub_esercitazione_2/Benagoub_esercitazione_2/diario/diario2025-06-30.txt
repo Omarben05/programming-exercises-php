@@ -1,0 +1,3 @@
+Giornata intensa. Ho completato l'esercizio sul CRUD con PDO e ho iniziato quello sul diario.
+La gestione dei file con PHP è più semplice del previsto, ma bisogna stare attenti ai permessi.
+Domani mi dedico all'upload!

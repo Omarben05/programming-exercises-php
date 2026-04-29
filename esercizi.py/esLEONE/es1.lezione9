@@ -1,0 +1,29 @@
+#Esercizio 1: Scarica una copia del file: www.py4e.com/code3/words.txt
+
+#Scrivi un programma che legga le parole in words.txt e le memorizzi come chiavi in un dizionario. Non importa quali siano i valori. 
+#Quindi puoi usare l’operatore in per verificare rapidamente se una stringa è contenuta nel dizionario.
+
+fname = input('Enter the file name: ')
+try:
+  fhand = open(fname)
+except:
+  print('File cannot be opened:', fname)
+  exit()
+
+chiavi= dict()
+for line in fhand:
+	words= line.split()
+	for word in words:
+		chiavi[word]= chiavi.get(word, 0) +1
+	
+word= input('Inserire parola: ')
+if word in chiavi:
+	print(word)
+else:
+	print ('parola non trovata')
+	
+	
+	
+
+
+

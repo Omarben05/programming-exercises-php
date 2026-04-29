@@ -1,0 +1,86 @@
+import os
+
+def leggi_file(nome_file):
+    if not os.path.exists(nome_file):
+        return None
+    with open(nome_file, 'r') as file:
+        dati = file.readlines()
+    return dati
+
+def scrivi_file(nome_file, dati):
+    with open(nome_file, 'w') as file:
+        for riga in dati:
+            file.write(riga + '\n')
+
+def pulisci_dati(dati):
+    dati_puliti = []
+    for riga in dati:
+        riga_pulita = riga.strip().lower()
+        dati_puliti.append(riga_pulita)
+    return dati_puliti
+
+def conta_parole(dati):
+    parole = {}
+    for riga in dati:
+        for parola in riga.split():
+            if parola in parole:
+                parole[parola] += 1
+            else:
+                parole[parola] = 1
+    return parole
+
+def ordina_parole(parole):
+    return sorted(parole.items(), key=lambda x: x[1], reverse=True)
+
+def menu_principale():
+    while True:
+        print("Menu principale:")
+        print("1. Leggi file")
+        print("2. Scrivi file")
+        print("3. Pulisci dati")
+        print("4. Conta parole")
+        print("5. Ordina parole")
+        print("6. Esci")
+        scelta = input("Scegli un'opzione: ")
+        if scelta == '1':
+            nome_file = input("Inserisci il nome del file da leggere: ")
+            dati = leggi_file(nome_file)
+            if dati is not None:
+                print("File letto con successo!")
+            else:
+                print("Errore: il file non esiste.")
+        elif scelta == '2':
+            nome_file = input("Inserisci il nome del file su cui scrivere: ")
+            if 'dati' in locals():
+                scrivi_file(nome_file, dati)
+                print("Dati scritti con successo!")
+            else:
+                print("Errore: nessun dato disponibile.")
+        elif scelta == '3':
+            if 'dati' in locals():
+                dati = pulisci_dati(dati)
+                print("Dati puliti con successo!")
+            else:
+                print("Errore: nessun dato disponibile.")
+        elif scelta == '4':
+            if 'dati' in locals():
+                parole = conta_parole(dati)
+                print("Parole contate con successo!")
+            else:
+                print("Errore: nessun dato disponibile.")
+        elif scelta == '5':
+            if 'parole' in locals():
+                parole_ordinate = ordina_parole(parole)
+                print("Parole ordinate con successo!")
+                for parola, conteggio in parole_ordinate:
+                    print(f"{parola}: {conteggio}")
+            else:
+                print("Errore: nessun conteggio di parole disponibile.")
+        elif scelta == '6':
+            print("Uscita dal programma.")
+            break
+        else:
+            print("Scelta non valida, riprova.")
+
+# Avvio del programma
+menu_principale()

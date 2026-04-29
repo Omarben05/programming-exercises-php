@@ -1,0 +1,12 @@
+def calcolo_media(numbers):
+	somma = 0
+	conta = 0
+	for numero in numbers:
+		somma += numero
+		conta += 1
+		media = somma / conta
+	return media
+
+numeri = [4, 8, 15, 16, 23, 42]
+risultato = calcolo_media(numeri)
+print("La media dei numeri è: " + str(risultato))

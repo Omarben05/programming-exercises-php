@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 4 - Trasformazioni CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        h2 {
+            margin-top: 30px;
+        }
+        
+        .box-rotazione {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin-bottom: 50px;
+            transition: transform 1s ease;
+        }
+        
+        .box-rotazione:hover {
+            transform: rotate(45deg);
+        }
+        
+        .contenitore-immagine {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+        
+        .immagine-zoom {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .contenitore-immagine:hover .immagine-zoom {
+            transform: scale(1.5);
+        }
+        
+        .box-inclinazione {
+            width: 200px;
+            height: 100px;
+            background-color: #e74c3c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+            transition: transform 0.5s ease;
+        }
+        
+        .box-inclinazione:hover {
+            transform: skew(20deg);
+        }
+        
+        .box-spostamento {
+            width: 100px;
+            height: 100px;
+            background-color: #2ecc71;
+            transition: transform 1s ease;
+        }
+        
+        .box-spostamento:hover {
+            transform: translateY(50px);
+        }
+        /* Nuove animazioni */
+        
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-80px);
+            }
+        }
+        
+        .box-a {
+            width: 100px;
+            height: 100px;
+            background-color: #9b59b6;
+            margin-bottom: 50px;
+            animation: bounce 1s infinite ease-in-out alternate;
+        }
+        
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        .box-b {
+            width: 100px;
+            height: 100px;
+            background-color: #f39c12;
+            margin-bottom: 50px;
+            animation: rotate 2s 10;
+        }
+        
+        @keyframes fade-scale {
+            0% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.3;
+                transform: scale(1.2);
+            }
+            100% {
+                opacity: 0.8;
+                transform: scale(1.4);
+            }
+        }
+        
+        .box-c {
+            width: 100px;
+            height: 100px;
+            background-color: #1abc9c;
+            margin-bottom: 50px;
+            animation: fade-scale 2s 5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Esercizio 4 - Trasformazioni CSS</h1>
+
+    <h2>1. rotazione di 45 gradi</h2>
+    <div class="box-rotazione"></div>
+
+    <h2>2.zoom 1.5</h2>
+    <div class="contenitore-immagine">
+        <img class="immagine-zoom" src="https://picsum.photos/200/200" alt="Immagine casuale">
+    </div>
+
+    <h2>3.inclinazione</h2>
+    <div class="box-inclinazione">
+        <p>INCLINATO</p>
+    </div>
+
+    <h2>4.si sposta con transform</h2>
+    <div class="box-spostamento"></div>
+
+    <h2>5. Animazione di rimbalzo</h2>
+    <div class="box-a"></div>
+
+    <h2>6. Animazione di rotazione</h2>
+    <div class="box-b"></div>
+
+    <h2>7. Animazione di opacità e scala</h2>
+    <div class="box-c"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+
+Analisi del Sistema di Prenotazione di Viaggi
+
+Obiettivo
+Il programma ha l'obiettivo di gestire un sistema di prenotazione di viaggi, in cui è possibile registrare e prenotare vari servizi come voli, hotel e noleggi auto per i passeggeri. I dati vengono memorizzati in un database relazionale (SQLite) per garantire la persistenza delle informazioni. Il programma deve anche fornire un'interfaccia di facile lettura per l'utente.
+
+Componenti principali
+Il sistema è diviso in 4 principali componenti:
+1. Classe `Volo`: rappresenta un volo.
+2. Classe `Hotel`: rappresenta un hotel.
+3. Classe `AutoNoleggio`: rappresenta un noleggio auto.
+4. Classe `Passeggero`: rappresenta un passeggero che può prenotare servizi.
+5. Classe `DatabaseUtilities`: gestisce la connessione al database, l'inserimento e la lettura dei dati.
+6. File principale (`main.py`): gestisce la logica di coordinamento tra le classi e interagisce con l'utente.
+
+Fasi di Sviluppo
+
+Fase 1: Progettazione delle classi
+1. Classe `Volo`:
+   - Attributi:
+     - `id_volo`: identificativo unico del volo.
+     - `compagnia`: nome della compagnia aerea.
+     - `origine`: città di partenza.
+     - `destinazione`: città di arrivo.
+     - `data_partenza`: data e ora di partenza.
+     - `data_arrivo`: data e ora di arrivo.
+     - `prezzo`: prezzo del volo.
+     - `posti_disponibili`: numero di posti disponibili.
+   - Metodi:
+     - `get_*`: metodi per ottenere i valori degli attributi.
+     - `__str__`: per una rappresentazione leggibile dell'oggetto.
+
+2. Classe `Hotel`:
+   - Attributi:
+     - `id_hotel`: identificativo unico dell'hotel.
+     - `nome`: nome dell'hotel.
+     - `città`: città in cui si trova l'hotel.
+     - `stelle`: numero di stelle dell'hotel.
+     - `prezzo_per_notte`: prezzo per notte.
+     - `camere_disponibili`: numero di camere disponibili.
+   - Metodi:
+     - `get_*`: metodi per ottenere i valori degli attributi.
+     - `__str__`: per una rappresentazione leggibile dell'oggetto.
+
+3. Classe `AutoNoleggio`:
+   - Attributi:
+     - `id_auto`: identificativo unico dell'auto.
+     - `agenzia`: nome dell'agenzia di noleggio.
+     - `modello`: modello dell'auto.
+     - `città`: città in cui è disponibile il noleggio.
+     - `prezzo_giornaliero`: prezzo giornaliero del noleggio.
+     - `auto_disponibili`: numero di auto disponibili.
+   - Metodi:
+     - `get_*`: metodi per ottenere i valori degli attributi.
+     - `__str__`: per una rappresentazione leggibile dell'oggetto.
+
+4. Classe `Passeggero`:
+   - Attributi:
+     - `id_passeggero`: identificativo unico del passeggero.
+     - `nome`: nome del passeggero.
+     - `cognome`: cognome del passeggero.
+     - `email`: email del passeggero.
+     - `telefono`: numero di telefono del passeggero.
+   - Metodi:
+     - `get_*`: metodi per ottenere i valori degli attributi.
+     - `__str__`: per una rappresentazione leggibile dell'oggetto.
+
+5. Classe `DatabaseUtilities`:
+   - Responsabile della gestione della connessione al database SQLite.
+   - Metodi principali:
+     - `create_tables()`: crea le tabelle nel database se non esistono già.
+     - `insert_*()`: metodi per inserire un volo, un hotel, un autonoleggio o un passeggero nel database.
+     - `get_*()`: metodi per recuperare i dati dal database.
+     - `close()`: chiude la connessione al database.
+
+Fase 2: Creazione del database e delle tabelle
+1. Creazione del database:
+   - Il database SQLite sarà utilizzato per memorizzare i dati relativi a voli, hotel, autonoleggi e passeggeri.
+   - Utilizzeremo la classe `DatabaseUtilities` per creare le tabelle nel database all'avvio del programma.
+
+2. Tabelle nel database:
+   - **Tabella `voli`**: conterrà i dettagli relativi ai voli (id_volo, compagnia, origine, destinazione, data_partenza, data_arrivo, prezzo, posti_disponibili).
+   - **Tabella `hotel`**: conterrà i dettagli degli hotel (id_hotel, nome, città, stelle, prezzo_per_notte, camere_disponibili).
+   - **Tabella `autonoleggio`**: conterrà i dettagli del noleggio auto (id_auto, agenzia, modello, città, prezzo_giornaliero, auto_disponibili).
+   - **Tabella `passeggeri`**: conterrà i dettagli dei passeggeri (id_passeggero, nome, cognome, email, telefono).
+
+Fase 3: Gestione delle prenotazioni
+1. Prenotazione dei servizi:
+   - Un passeggero può prenotare uno o più servizi (volo, hotel, auto) associando un ID del servizio al proprio ID.
+   - La prenotazione avviene a livello logico, quindi i servizi prenotati verranno associati a ciascun passeggero nel sistema.
+
+2. Aggiornamento dei posti/camere disponibili:
+   - Ogni volta che un servizio viene prenotato, i posti o le camere disponibili per quel servizio verranno decrementati nel database.
+
+Fase 4: Interfaccia utente
+1. Gestione dell'input dell'utente:
+   - Il programma dovrà offrire un'interfaccia semplice che permetta di:
+     - Registrare un nuovo volo, hotel, autonoleggio o passeggero.
+     - Prenotare un servizio per un passeggero esistente.
+     - Visualizzare i dettagli di tutti i servizi e i passeggeri.
+
+2. Output leggibile:
+   - L'output del programma deve essere chiaro e comprensibile, con informazioni ben formattate riguardo alle prenotazioni e ai dettagli dei servizi.
+
+Fase 5: Gestione degli errori
+1. Gestione degli errori nei metodi di inserimento e recupero:
+   - Utilizzeremo il costrutto `try-except` per gestire eventuali errori durante l'inserimento dei dati nel database o la loro lettura.
+   - Ad esempio, se un servizio non è disponibile, verrà mostrato un messaggio di errore.
+
+2. Validazione degli input:
+   - Gli input dell'utente (come l'ID di un volo, hotel, ecc.) saranno verificati per garantire che siano validi e non causino errori nel sistema.
+
+Fase 6: Scrittura di uno script di inizializzazione (`dump.py`)
+1. Script di inizializzazione:
+   - Scriveremo uno script `dump.py` che crea le tabelle nel database. Questo script verrà eseguito una sola volta per inizializzare il database prima di far partire il programma principale.
+
+Fase 7: Test e ottimizzazione
+1. Test del sistema:
+   - Verifica che i dati vengano correttamente inseriti e recuperati dal database.
+   - Controlla che le prenotazioni vengano gestite correttamente (posti/camere disponibili vengono aggiornati).
+
+2. Ottimizzazione:
+   - Ottimizzare il codice per migliorare le performance e la leggibilità.
+
+Conclusioni
+Una volta completate tutte le fasi di sviluppo, il programma dovrebbe essere in grado di gestire la registrazione e la prenotazione di voli, hotel e noleggi auto per i passeggeri, 
+mantenendo la persistenza dei dati nel database e offrendo una buona esperienza utente.

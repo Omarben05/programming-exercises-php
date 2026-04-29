@@ -1,0 +1,90 @@
+#      Esercizio 1: Scrivi una funzione chiamata chop che prenda un elenco, lo modifichi rimuovendo il primo e l’ultimo elemento e restituisca None. 
+###    Quindi scrivi una funzione chiamata middle che prenda un elenco e restituisca un nuovo elenco contenente tutti gli elementi tranne 
+###    il primo e l’ultimo.
+
+
+def middle(lis):
+	copia= lis[:] 
+	copia.pop(0)
+	copia.pop()
+	return copia
+	
+def chop(x):
+	x.pop(0)
+	x.pop()
+	
+elenco= ['a', 'b', 'c', 'd']
+chop(elenco)
+print(elenco)
+
+elenco2 =  ['1', '2', '3', '4']
+elenco2_middle = middle(elenco2)
+print(elenco2)
+print(elenco2_middle)
+
+
+#		es 1.fatto dal prof
+
+def chop (t):
+	t.pop(0)
+	t.pop()
+	
+def middle (t)
+	t2= t [:]
+	t2.pop(0)
+	t2.pop()
+	return t2
+	
+letters = ['a', 'b', 'c', 'd', 'e']
+letters2 = middle(letters)
+print(letters)
+print(letters2)
+
+#		es 2 
+#usando come riferimento lo script creato e modificato per stampare tutte le righe che iniziamo con "From", 
+#scopri quale riga del programma precedente non è ancora adeguatamente protetta. Cerca di costruire un file di testo che faccia fallire il programma 
+#e quindi modifica il programma in modo che la riga sia adeguatamente protetta 
+#e testala nuovamente per essere sicuro che gestisca correttamente il nuovo file di testo.
+
+
+fhand = open ('mbox-short.txt')
+for line in fhand:
+	words = line.split()
+	if words[0] != 'From' : continue
+	print(words[2])
+	
+	
+#	es 3 
+#riscrivi il codice guardiano dell’esempio precedente 
+#senza le due istruzioni if. Usa invece un’espressione logica composta dall’operatore and e una singola istruzione if.
+
+fhand = open ('mbox-short.txt')
+for line in fhand:
+	words = line.split()
+	if (len(words) > 2 and words[0] == 'From')
+	 print(words[2])
+	 
+	 
+#  es 4
+#scarica una copia del file www.py4e.com/code3/romeo.txt
+
+#Scrivi un programma che lo apra e lo legga riga per riga. Dividi la riga in un elenco di parole usando la funzione split. 
+#Controlla se ogni parola è già presente in un elenco. 
+#Se la parola non è nell’elenco, aggiungila. Al termine del programma, ordina e visualizza in ordine alfabetico le parole risultanti.
+
+import string
+fhand= open ('es4lezione8')
+lst = list()
+
+for line in fhand:
+	words = line.split()
+	
+	for word in words:
+		if word not in list:
+			lst.append(word)
+
+lst.sort()
+print (lst) 
+
+
+

@@ -1,0 +1,5 @@
+name = input ('what is your name?')
+age = int(input("what is your age?"))
+print('welcome' , name , age)
+course = input ("what is your course?") 
+print('welcome to', course)

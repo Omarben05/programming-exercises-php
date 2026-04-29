@@ -1,0 +1,157 @@
+	
+	
+	compilatore = traduce da linguaggio alto a linguaggio macchina (010001010101010 exemple)
+	e lo fa diventare un file eseguibile, e interpreta , segnala al primo errore , quando la sintassi e corretta, segnala il primo errore 
+	meccanico 
+	il compilatore= prima riga dice l'errore e non esegue cio che e corretto
+
+	il compilor non è utilizzato in tutti i linguaggi 
+
+	interprete= traduce riga per riga fino al punto dell'errore , si interrompe all'errore e esegue cio che ce prima , python è interpretato
+	python e uguale in ogni browser 
+
+
+	nella programmazione web non è uguale il linguaggio in ogni browser javascript cambia in base al browser ( comportamenti e aspetti visuali diversi 
+	chrome in mac e chrome in windows)  perche è importante testarlo continuamente? 1 errori escono in tempo di esecuzione, 2 ambienti diversi 
+	problematiche per logica applicativa, o sintassi, o compatibilita con browser
+	problemi di rete
+
+	web server ascolta sempre richieste e risponde ad una richiesta
+	devo collegare a una macchina con indirizzo ip di questa macchina e specifica porta con percorso della risorsa specifica
+	se voglio testare su un cel apro browser ip della macchina dove si trova il web server, nome specifica della risorsa  
+
+	conosceri vari installare web server e inserire e caricare cartella in modo giusto inserire ip config / altro dispositivo sulla stessa rete 
+
+	
+	HTML = come sono strutturati i vari elementi della pagina, NON tratta l'aspetto grafico-presentazionale(carattere colore font disposizione elementi 
+	grandezza spazzi e trasformazione elementi animazioni) 
+	CSS= presentazione
+	JAVASCRIPT= interazione e logica (bottone, compilare un form, processo di richiesta e risposta, scorrere la pagina, muovere un cursore,
+	caricare ricaricare la pagina, prendere e trascinare) (prendere i dati e processarli correttamente)
+
+	HTML BOILERPLATE= scheletro della pagina doctype dice che e di html e la versione, head (informazioni principali, caricare risorse esterne come css
+	meta dati= informazioni che descrivono altre info )  il browser interpreta una riga alla volta, lo script si mette sotto che ci mette un po
+ 	e body(contenuto vero reale, script + risorsa javascript che ha la logica)
+
+	SEMPRE EXTERNAL CSS E JS
+
+	Metadati su HTML =  Parte non visibile , un dato che descrive un'altro dato, info aggiuntive 
+
+	nodeJS lato server    JS lato client
+	nodeJS collegamento db 
+
+							JAVASCRIPT
+	ogni cosa è un oggetto
+	initialize= istanziare= dare un valore
+	ogni istruzione/ riga= statement
+	una parte di riga = espressione -        elabora espressione ritorna valore
+
+
+	dichiaro variabile "LET" e il nome (in camelCase) (in modo chiaro in INGLESE) - "CONST" dichiaro variabile con valore non cambiabile
+	non tipizzato (scatola per scarpe ma posso metterci tutto)
+	type di una variabile non e da definire in una variabile, ma ce il tipo (number, string) controllabile con "typeof "
+
+	null= valore nullo/ esplicitamente non dare valore (scatola con un foglio con scrutto non ce nulla)
+	undefined = mancanza di valore/ dichiarato ma senza valore (scatola vuota) 
+
+
+
+	URL = port= stessa persona ma accedere a un servizio specifico , Path= percorso, query string= 
+	fragment= permette di andare su una parte/elemento in una risorsa
+
+	opengraph= strumenti per come verra visualizzata la pagina nei social
+
+
+	una variabile puo contenere un valore di tipo funzione 
+
+	circular dependencies --> non buono - stackoverflow - sovracaricamento 
+
+	la recursion ha senso se ce un problema = divido in piu parti per richiamare se stessa
+	
+	dichiarare variabile:
+		let = block scoped     - let riferito a tutto il blocco delimitato dalle parentesi graffe non esce fuori dal blocco
+
+		var = global scoped/ function scoped    - variabile solo all'interno della funzione dove e stata dichiarata non al blocco ma esce fuori
+
+
+	poter scrivere una funzione in maniera diversa = arrow functions
+
+	recursion -> vantaggio che deleghi il calcolo in piu parti e ottieni il tuo obiettivo sommando le varie delegazioni 
+	     quando si riesce a dividere in piu pezzi, valutare pero se il calcolo richiede troppo tempo 
+	
+	
+	
+	Truthy e Falsey come viene detto=  guarda se è truthy o falsey se è truthy passa da una parte se è falsey da un altra 
+	dentro al while for exc deve avere un valore  e che abbia qualsiasi tipo di valore e accetta come truthy o falsey , non come ad altri linguaggi che chiede un espressione che elaborata sia true o false
+	Truthy vs Falsey
+	
+		Truthy è tutto cio che non è Falsey
+		Values that are "false-y":
+			false, the empty string (""), the number 0, the number -0, undefined, null, NaN, begint0n, document.org 
+
+	switch = if-else 
+	
+	
+	Strings =  contengono metodi e proprieta ,   non usare parentesi quadre
+	vedere quanto è lunga una stringa = variabile.length
+	
+	
+	
+	
+	
+	REGULAR EXPRESSIONS =   IL punto '.' prende letteralmente il .
+		 qualsiasi carattere  = . fuori dalle quadrate 
+
+	{}= parentesi graffe indicano la quantita di caratteri nelle quadre prima delle graffe
+
+	
+	
+	list[2000] = "simon";
+	console.log(list.length); // length array 2001
+
+	
+	trasformare number in string  3 + ""   // number concatenato a "" string  percio = string
+	
+	
+	UNIT 7
+
+	Dot notation / bracket notation: 
+
+	bracket : usato in situazioni in tempo dinamico,        
+	puoi mettere :
+	gli spazi e caratteri strani,
+	usare variabili al posto della stringa,
+	proprietà che iniziano con numeri
+	
+//Number contiene metodi utili per valori di tipo 'number'
+//String contiene metodi utili per valori di tipo 'string'
+//Object contiene metodi utili per valori di tipo 'object'
+//Array contiene metodi utili per valori di tipo 'object' utili per l'utilizzo degli array
+
+
+	UNIT 8
+	
+	timeout   and    interval
+	
+	timing
+	● setTimeout allows to run a function once after an interval of time.
+	● setInterval allows to run a function regularly with a specified interval.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

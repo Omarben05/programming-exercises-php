@@ -1,0 +1,12 @@
+def indirizzo(mail):
+	pos=mail.find('@')
+	return.mail[pos+1:]
+fhand=open('mbox-short.txt')
+a=dict()
+ 
+for line in fhand:
+	words=line.split()
+	if len(words)>2 and words[0] == 'From':
+	 dominio=indirizzo(words[1])
+	 a[dominio]=a.get(dominio,0)+1
+print(a)

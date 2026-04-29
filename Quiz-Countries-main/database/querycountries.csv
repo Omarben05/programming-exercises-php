@@ -1,0 +1,171 @@
+alpha2Code,alpha3Code,name,capital,region,population,nativeName,area
+AF,AFG,Afghanistan,Kabul,Asia,38928341,افغانستان,652230
+AL,ALB,Albania,Tirana,Europe,2837743,Shqipëria,28748
+DZ,DZA,Algeria,Algiers,Africa,43851043,الجزائر,2381741
+AO,AGO,Angola,Luanda,Africa,32866268,Angola,1246700
+AR,ARG,Argentina,"Buenos Aires",Americas,45376763,Argentina,2780400
+AM,ARM,Armenia,Yerevan,Asia,2963234,Հայաստան,29743
+AU,AUS,Australia,Canberra,Oceania,25687041,Australia,7692024
+AT,AUT,Austria,Vienna,Europe,8917205,Österreich,83871
+AZ,AZE,Azerbaijan,Baku,Asia,10110116,Azərbaycan,86600
+BH,BHR,Bahrain,Manama,Asia,1701583,‏البحرين,765
+BD,BGD,Bangladesh,Dhaka,Asia,164689383,Bangladesh,147570
+BY,BLR,Belarus,Minsk,Europe,9398861,Белару́сь,207600
+BE,BEL,Belgium,Brussels,Europe,11555997,België,30528
+BZ,BLZ,Belize,Belmopan,Americas,397621,Belize,22966
+BJ,BEN,Benin,Porto-Novo,Africa,12123198,Bénin,112622
+BT,BTN,Bhutan,Thimphu,Asia,771612,ʼbrug-yul,38394
+BO,BOL,"Bolivia (Plurinational State of)",Sucre,Americas,11673029,Bolivia,1098581
+BA,BIH,"Bosnia and Herzegovina",Sarajevo,Europe,3280815,"Bosna i Hercegovina",51209
+BW,BWA,Botswana,Gaborone,Africa,2351625,Botswana,582000
+BR,BRA,Brazil,Brasília,Americas,212559409,Brasil,8515767
+BG,BGR,Bulgaria,Sofia,Europe,6927288,България,110879
+BF,BFA,"Burkina Faso",Ouagadougou,Africa,20903278,"Burkina Faso",272967
+BI,BDI,Burundi,Gitega,Africa,11890781,Burundi,27834
+KH,KHM,Cambodia,"Phnom Penh",Asia,16718971,Kâmpŭchéa,181035
+CM,CMR,Cameroon,Yaoundé,Africa,26545864,Cameroon,475442
+CA,CAN,Canada,Ottawa,Americas,38005238,Canada,9984670
+CV,CPV,"Cabo Verde",Praia,Africa,555988,"Cabo Verde",4033
+CF,CAF,"Central African Republic",Bangui,Africa,4829764,"Ködörösêse tî Bêafrîka",622984
+TD,TCD,Chad,N'Djamena,Africa,16425859,Tchad,1284000
+CL,CHL,Chile,Santiago,Americas,19116209,Chile,756102
+CN,CHN,China,Beijing,Asia,1402112000,中国,9640011
+CO,COL,Colombia,Bogotá,Americas,50882884,Colombia,1141748
+KM,COM,Comoros,Moroni,Africa,869595,Komori,1862
+CG,COG,Congo,Brazzaville,Africa,5518092,"République du Congo",342000
+CR,CRI,"Costa Rica","San José",Americas,5094114,"Costa Rica",51100
+HR,HRV,Croatia,Zagreb,Europe,4047200,Hrvatska,56594
+CU,CUB,Cuba,Havana,Americas,11326616,Cuba,109884
+CY,CYP,Cyprus,Nicosia,Europe,1207361,Κύπρος,9251
+CZ,CZE,"Czech Republic",Prague,Europe,10698896,"Česká republika",78865
+DK,DNK,Denmark,Copenhagen,Europe,5831404,Danmark,43094
+DJ,DJI,Djibouti,Djibouti,Africa,988002,Djibouti,23200
+DO,DOM,"Dominican Republic","Santo Domingo",Americas,10847904,"República Dominicana",48671
+EC,ECU,Ecuador,Quito,Americas,17643060,Ecuador,276841
+EG,EGY,Egypt,Cairo,Africa,102334403,مصر‎,1002450
+SV,SLV,"El Salvador","San Salvador",Americas,6486201,"El Salvador",21041
+GQ,GNQ,"Equatorial Guinea",Malabo,Africa,1402985,"Guinea Ecuatorial",28051
+EE,EST,Estonia,Tallinn,Europe,1331057,Eesti,45227
+ET,ETH,Ethiopia,"Addis Ababa",Africa,114963583,ኢትዮጵያ,1104300
+FJ,FJI,Fiji,Suva,Oceania,896444,Fiji,18272
+FI,FIN,Finland,Helsinki,Europe,5530719,Suomi,338424
+FR,FRA,France,Paris,Europe,67391582,France,640679
+GA,GAB,Gabon,Libreville,Africa,2225728,Gabon,267668
+GE,GEO,Georgia,Tbilisi,Asia,3714000,საქართველო,69700
+DE,DEU,Germany,Berlin,Europe,83240525,Deutschland,357114
+GH,GHA,Ghana,Accra,Africa,31072945,Ghana,238533
+GR,GRC,Greece,Athens,Europe,10715549,Ελλάδα,131990
+GT,GTM,Guatemala,"Guatemala City",Americas,16858333,Guatemala,108889
+GN,GIN,Guinea,Conakry,Africa,13132792,Guinée,245857
+GW,GNB,Guinea-Bissau,Bissau,Africa,1967998,Guiné-Bissau,36125
+GY,GUY,Guyana,Georgetown,Americas,786559,Guyana,214969
+HT,HTI,Haiti,Port-au-Prince,Americas,11402533,Haïti,27750
+VA,VAT,"Vatican City","Vatican City",Europe,451,"Città del Vaticano",0.44
+HN,HND,Honduras,Tegucigalpa,Americas,9904608,Honduras,112492
+HK,HKG,"Hong Kong","City of Victoria",Asia,7481800,香港,1104
+HU,HUN,Hungary,Budapest,Europe,9749763,Magyarország,93028
+IS,ISL,Iceland,Reykjavík,Europe,366425,Ísland,103000
+IN,IND,India,"New Delhi",Asia,1380004385,भारत,3287590
+ID,IDN,Indonesia,Jakarta,Asia,273523621,Indonesia,1904569
+CI,CIV,"Côte d'Ivoire",Yamoussoukro,Africa,26378275,"Côte d'Ivoire",322463
+IR,IRN,"Iran (Islamic Republic of)",Tehran,Asia,83992953,ایران,1648195
+IQ,IRQ,Iraq,Baghdad,Asia,40222503,العراق,438317
+IE,IRL,Ireland,Dublin,Europe,4994724,Éire,70273
+IL,ISR,Israel,Jerusalem,Asia,9216900,יִשְׂרָאֵל,20770
+IT,ITA,Italy,Rome,Europe,59554023,Italia,301336
+JM,JAM,Jamaica,Kingston,Americas,2961161,Jamaica,10991
+JP,JPN,Japan,Tokyo,Asia,125836021,日本,377930
+JO,JOR,Jordan,Amman,Asia,10203140,الأردن,89342
+KZ,KAZ,Kazakhstan,Nur-Sultan,Asia,18754440,Қазақстан,2724900
+KE,KEN,Kenya,Nairobi,Africa,53771300,Kenya,580367
+KW,KWT,Kuwait,"Kuwait City",Asia,4270563,الكويت,17818
+KG,KGZ,Kyrgyzstan,Bishkek,Asia,6591600,Кыргызстан,199951
+LA,LAO,"Lao People's Democratic Republic",Vientiane,Asia,7275556,ສປປລາວ,236800
+LV,LVA,Latvia,Riga,Europe,1901548,Latvija,64559
+LB,LBN,Lebanon,Beirut,Asia,6825442,لبنان,10452
+LS,LSO,Lesotho,Maseru,Africa,2142252,Lesotho,30355
+LR,LBR,Liberia,Monrovia,Africa,5057677,Liberia,111369
+LY,LBY,Libya,Tripoli,Africa,6871287,‏ليبيا,1759540
+LT,LTU,Lithuania,Vilnius,Europe,2794700,Lietuva,65300
+LU,LUX,Luxembourg,Luxembourg,Europe,632275,Lëtzebuerg,2586
+MK,MKD,"North Macedonia",Skopje,Europe,2083380,"северна Македонија",25713
+MG,MDG,Madagascar,Antananarivo,Africa,27691019,Madagasikara,587041
+MW,MWI,Malawi,Lilongwe,Africa,19129955,Malawi,118484
+MY,MYS,Malaysia,"Kuala Lumpur",Asia,32365998,Malaysia,330803
+MV,MDV,Maldives,Malé,Asia,540542,Maldives,300
+ML,MLI,Mali,Bamako,Africa,20250834,Mali,1240192
+MT,MLT,Malta,Valletta,Europe,525285,Malta,316
+MR,MRT,Mauritania,Nouakchott,Africa,4649660,موريتانيا,1030700
+MU,MUS,Mauritius,"Port Louis",Africa,1265740,Maurice,2040
+MX,MEX,Mexico,"Mexico City",Americas,128932753,México,1964375
+MD,MDA,"Moldova (Republic of)",Chișinău,Europe,2617820,Moldova,33846
+MN,MNG,Mongolia,"Ulan Bator",Asia,3278292,"Монгол улс",1564110
+ME,MNE,Montenegro,Podgorica,Europe,621718,"Црна Гора",13812
+MA,MAR,Morocco,Rabat,Africa,36910558,المغرب,446550
+MZ,MOZ,Mozambique,Maputo,Africa,31255435,Moçambique,801590
+MM,MMR,Myanmar,Naypyidaw,Asia,54409794,Myanma,676578
+NA,NAM,Namibia,Windhoek,Africa,2540916,Namibia,825615
+NP,NPL,Nepal,Kathmandu,Asia,29136808,नेपाल,147181
+NL,NLD,Netherlands,Amsterdam,Europe,17441139,Nederland,41850
+NZ,NZL,"New Zealand",Wellington,Oceania,5084300,"New Zealand",270467
+NI,NIC,Nicaragua,Managua,Americas,6624554,Nicaragua,130373
+NE,NER,Niger,Niamey,Africa,24206636,Niger,1267000
+NG,NGA,Nigeria,Abuja,Africa,206139587,Nigeria,923768
+KP,PRK,"Korea (Democratic People's Republic of)",Pyongyang,Asia,25778815,북한,120538
+NO,NOR,Norway,Oslo,Europe,5379475,Norge,323802
+OM,OMN,Oman,Muscat,Asia,5106622,عمان,309500
+PK,PAK,Pakistan,Islamabad,Asia,220892331,Pakistan,881912
+PA,PAN,Panama,"Panama City",Americas,4314768,Panamá,75417
+PG,PNG,"Papua New Guinea","Port Moresby",Oceania,8947027,"Papua Niugini",462840
+PY,PRY,Paraguay,Asunción,Americas,7132530,Paraguay,406752
+PE,PER,Peru,Lima,Americas,32971846,Perú,1285216
+PH,PHL,Philippines,Manila,Asia,109581085,Pilipinas,342353
+PL,POL,Poland,Warsaw,Europe,37950802,Polska,312679
+PT,PRT,Portugal,Lisbon,Europe,10305564,Portugal,92090
+QA,QAT,Qatar,Doha,Asia,2881060,قطر,11586
+RO,ROU,Romania,Bucharest,Europe,19286123,România,238391
+RU,RUS,"Russian Federation",Moscow,Europe,144104080,Россия,17124442
+RW,RWA,Rwanda,Kigali,Africa,12952209,Rwanda,26338
+LC,LCA,"Saint Lucia",Castries,Americas,183629,"Saint Lucia",616
+ST,STP,"Sao Tome and Principe","São Tomé",Africa,219161,"São Tomé e Príncipe",964
+SA,SAU,"Saudi Arabia",Riyadh,Asia,34813867,"العربية السعودية",2149690
+SN,SEN,Senegal,Dakar,Africa,16743930,Sénégal,196722
+RS,SRB,Serbia,Belgrade,Europe,6908224,Србија,88361
+SC,SYC,Seychelles,Victoria,Africa,98462,Seychelles,452
+SL,SLE,"Sierra Leone",Freetown,Africa,7976985,"Sierra Leone",71740
+SG,SGP,Singapore,Singapore,Asia,5685807,Singapore,710
+SK,SVK,Slovakia,Bratislava,Europe,5458827,Slovensko,49037
+SI,SVN,Slovenia,Ljubljana,Europe,2100126,Slovenija,20273
+SO,SOM,Somalia,Mogadishu,Africa,15893219,Soomaaliya,637657
+ZA,ZAF,"South Africa",Pretoria,Africa,59308690,"South Africa",1221037
+KR,KOR,"Korea (Republic of)",Seoul,Asia,51780579,대한민국,100210
+SS,SSD,"South Sudan",Juba,Africa,11193729,"South Sudan",619745
+ES,ESP,Spain,Madrid,Europe,47351567,España,505992
+LK,LKA,"Sri Lanka","Sri Jayawardenepura Kotte",Asia,21919000,"śrī laṃkāva",65610
+SD,SDN,Sudan,Khartoum,Africa,43849269,السودان,1886068
+SR,SUR,Suriname,Paramaribo,Americas,586634,Suriname,163820
+SZ,SWZ,Eswatini,Mbabane,Africa,1160164,eSwatini,17364
+SE,SWE,Sweden,Stockholm,Europe,10353442,Sverige,450295
+CH,CHE,Switzerland,Bern,Europe,8636896,Schweiz,41284
+SY,SYR,"Syrian Arab Republic",Damascus,Asia,17500657,سوريا,185180
+TW,TWN,Taiwan,Taipei,Asia,23503349,臺灣,36193
+TJ,TJK,Tajikistan,Dushanbe,Asia,9537642,Тоҷикистон,143100
+TZ,TZA,"Tanzania, United Republic of",Dodoma,Africa,59734213,Tanzania,945087
+TH,THA,Thailand,Bangkok,Asia,69799978,ประเทศไทย,513120
+TL,TLS,Timor-Leste,Dili,Asia,1318442,Timor-Leste,14874
+TG,TGO,Togo,Lomé,Africa,8278737,Togo,56785
+TT,TTO,"Trinidad and Tobago","Port of Spain",Americas,1399491,"Trinidad and Tobago",5130
+TN,TUN,Tunisia,Tunis,Africa,11818618,تونس,163610
+TR,TUR,Turkey,Ankara,Asia,84339067,Türkiye,783562
+TM,TKM,Turkmenistan,Ashgabat,Asia,6031187,Türkmenistan,488100
+UG,UGA,Uganda,Kampala,Africa,45741000,Uganda,241550
+UA,UKR,Ukraine,Kyiv,Europe,44134693,Україна,603700
+AE,ARE,"United Arab Emirates","Abu Dhabi",Asia,9890400,"دولة الإمارات العربية المتحدة",83600
+US,USA,"United States of America","Washington, D.C.",Americas,329484123,"United States",9629091
+UY,URY,Uruguay,Montevideo,Americas,3473727,Uruguay,181034
+UZ,UZB,Uzbekistan,Tashkent,Asia,34232050,O‘zbekiston,447400
+VE,VEN,"Venezuela (Bolivarian Republic of)",Caracas,Americas,28435943,Venezuela,916445
+VN,VNM,Vietnam,Hanoi,Asia,97338583,"Việt Nam",331212
+YE,YEM,Yemen,Sana'a,Asia,29825968,اليَمَن,527968
+ZM,ZMB,Zambia,Lusaka,Africa,18383956,Zambia,752612
+ZW,ZWE,Zimbabwe,Harare,Africa,14862927,Zimbabwe,390757

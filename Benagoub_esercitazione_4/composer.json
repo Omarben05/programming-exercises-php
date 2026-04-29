@@ -1,0 +1,12 @@
+{
+    "name": "omar.benagoub/benagoub_esercitazione_4",
+    "description": "progetto",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OmarBenagoub\\BenagoubEsercitazione4\\": "src/"
+        }
+    },
+    "require": {}
+}

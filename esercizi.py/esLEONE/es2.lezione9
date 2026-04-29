@@ -1,0 +1,24 @@
+####Esercizio 2: Scrivi un programma che classifichi ogni messaggio di posta in base al giorno della settimana in cui è stato inviato.
+#   Per fare ciò, cerca le righe che iniziano con “From”, quindi cerca la terza parola e aggiorna il conteggio di ciascuno dei giorni della settimana.
+#	Alla fine del programma visualizza i contenuti del tuo dizionario (l’ordine non ha importanza). Riga di esempio: 
+#	From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008
+
+fname = input('Enter a file name: ')
+try:
+	fhand = open(fname)
+else:
+	print('file not found')
+	exit()
+
+counts = dict()
+for line in fhand:
+	line = line.rstrip()
+	line = line.translate(str.maketrans('', '', string.punctuation))
+	if len(line) >= 2 and line.startswith('From'):
+		words= line.split()
+		if len(words) > 2:
+			giorno = words[2]
+			counts[giorno] = counts.get(giorno, 0) +1
+			
+print(counts)
+		

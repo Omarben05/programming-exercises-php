@@ -1,0 +1,61 @@
+mongodb+srv://omarbenagoubSWD:Bobo015@@swd.nuqcok9.mongodb.net/
+
+
+document based , schemaless , chiave-valore non si puo interrogare a valore in quanto 
+nascosto dalla chiave .    i document based si invece
+
+
+use sample_mflix
+
+db.movies.find({title":"Inception"})
+
+db.movies.find({countries:"Italy"})
+
+db.movies.find({"imdb.rating": {"$gt":8}})      =  Rating maggiore greater than 8
+
+db.movies.find({"runtime": {"$lt":98}})     =  Less than
+
+db.movies.find({"year": {"$gte":2000, "$lte": 2010}})
+
+db.movies.find({"genres": "Documentary"})
+
+
+trovare i primi 5 film ordinati per rating imdb
+db.movies.find().sort({"imdb.rating": -1}).limit(5)
+
+contare 
+db.movies.countDocuments({"genres":"Comedy"})
+
+find films directed by christopher 
+db.movies.find({"director": "Christopher Nolan"})
+
+i film con tom ex nel cast
+db.movies.find({"cast":"Tom Hanks"})
+
+rating superiore a 9 e almeno 100k voti
+db.movies.find({"imdb.rating": {"$gt": 9} , "imdb.votes": {"$gte" : 100000}})
+
+find films in japanese
+db.movies.find({"languages":"Japanese"})
+
+film americani che iniziano con la lettere a
+db.movies.find({countries: "USA", title: { $regex: /^A/, $options: "i" }})
+
+film che non hanno cast
+db.movies.find({"cast":{"$size": 0}})
+
+film rilasciati dopo il 2015
+db.movies.find({"year": {"$gte": 2015}})
+
+film con il rating degli spettatore su tomatoes.viewer >4
+db.movies.find({"tomatoes.viewer.rating": {"$gte": 4}})
+
+trovare tutti i film del 96
+db.movies.find({"year": 1996})
+
+film dove la durata non è specificata 
+db.movies.find({"runtime": null}) oppure
+db.movies.find({"year": {"$gte": 20000, "$lte": 2010}}) 
+
+con almeno un award
+db.movies.find({"awards.wins": {"$gte": 2}})

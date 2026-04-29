@@ -1,0 +1,55 @@
+
+
+
+   TERMINALE scrivo git
+
+git init = inizialize  
+
+
+prima di committare dire utente e mail
+
+unita di misura di git è in righe
+
+per mettere firma autore = nome e email -> git config user.name
+					   git config user.email
+	git config --global user.name 
+
+
+git status = feedback di cosa facciamo fa vedere i cambiamenti della cartella di lavoro 
+
+aggiungere file al git = git add 'file'
+
+git commit -m  "commento" = commit di cosa hai fatto
+
+git mv 'file' 'file aggiornato' = per rinominare file
+
+git rm 'file' = elimina file
+git add 'file' = aggiungere file
+
+git log = vedi cosa hai fatto con autore data e dice i commit
+
+git show 'codice commit' = per vedere un commit
+
+git diff 'cod commit' 'cod commit' = mostra differenza e le modifiche tra i due commit 
+git checkout 'codice commit' = vedi la storia e ti sposti in quel commit per fare qualcosa / diverso da git show 
+che mostra solo per il checkout posso dare un etichetta a un commit in modo tale da semplificare 
+l'identificazione senza usare il codice per creare etichetta = git checkout -b 'nome etichetta'
+
+creare branch git checkout branch 
+git merge "nome" unisce il branch a quello in cui si è
+git checkout -b 'nome etichetta' 
+
+git checkout -m = dare messaggio
+
+cat "file" = vedi cosa ce dentro al file
+
+PS C:\Users\Omar.Benagoub> cat C:\Users\Omar.Benagoub/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMrWlbQVKHUUrqr9BV7gBMgOdUjIl0ssXrC/R4nM9q2G edu-its\omar.benagoub@SWD-2426-18
+
+
+git log --pretty=oneline | wc -1	=	conta il numero di righe di cose
+
+git log | grep "Author: " = cerca e ti mostra le righe che contengono quella cosa (author) 
+git log | grep "Author: " | wc -1
+
+
